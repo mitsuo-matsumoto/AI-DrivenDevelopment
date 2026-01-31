@@ -168,18 +168,26 @@ Markdownファイルを開いた状態で：
 
 docs フォルダ配下に以下を作成する。
 
-- 00_overview.md
-- 10_requirements.md
-- 20_system_design.md
-- 30_detail_design.md
-- glossary.md
-- architecture.drawio
+| ファイル名                  | 内容                             |
+| ---------------------- | ------------------------------ |
+| `00_overview.md`       | プロジェクト概要、対象範囲、全体像、用語定義         |
+| `10_requirements.md`   | 機能要件、非機能要件、制約条件                |
+| `20_system_design.md`  | システム構成、データ設計、API設計             |
+| `30_detail_design.md`  | 詳細機能設計、UI/UX設計、外部連携設計          |
+| `40_implementation.md` | 実装方針、開発環境、コーディングルール、ブランチ戦略     |
+| `50_testing.md`        | テスト計画、テスト種類、AI活用               |
+| `60_code_review.md`    | コードレビュー、品質管理指標                 |
+| `70_deployment.md`     | デプロイ手順、運用監視、保守・改善              |
+| `80_ai_guidelines.md`  | AI生成物管理、ライセンス、学習データ、フィードバックループ |
+| `glossary.md`          | 用語集                            |
+| `architecture.drawio`  | システム構成図、概念図（Draw.ioで作成）        |
 
 ---
 
 ## 8. Gitでのリポジトリ管理
 ※git configは設定しておく必要があります。
 ```
+git config --global user.name "m-matsumoto"
 git config --global user.email "m-matsumoto@wanbishi.co.jp"
 ```
 
