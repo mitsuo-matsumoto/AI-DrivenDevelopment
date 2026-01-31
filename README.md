@@ -177,7 +177,31 @@ docs フォルダ配下に以下を作成する。
 
 ---
 
+## 8. Gitでのリポジトリ管理
+※git configは設定しておく必要があります。
+```
+git config --global user.email "m-matsumoto@wanbishi.co.jp"
+```
 
+- Git上にリポジトリを作成しておく。
+- Git初期化
+```
+git init
+```
+- コミット
+```
+git add .
+git commit -m "Initial commit"
+```
+- リモートリポジトリを追加
+```
+git remote add origin https://github.com/mitsuo-matsumoto/AI-DrivenDevelopment.
+```
+- プッシュ
+```
+git branch -M main
+git push -u origin main
+```
 
 ## 8. まとめ
 
