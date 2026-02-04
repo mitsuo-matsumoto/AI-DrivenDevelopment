@@ -93,6 +93,20 @@ Markdownを **読みやすく表示するための拡張**。
 - 発行者：Suguru Yamamoto
 ---
 
+### 2.5 Codex - OpenAI's coding agent
+
+Codexを利用するための拡張。
+
+**用途**
+- ｘｘｘ
+
+**インストール**
+- 拡張機能検索で  
+  `Codex - OpenAI's coding agent`
+- 発行者：OpenAI
+
+---
+
 ## 3. Markdownプレビューの使い方
 
 ### 3.1 プレビューを開く方法
